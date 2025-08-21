@@ -83,8 +83,6 @@ class InterSdk
         if (file_exists($tomorrow)) {
             unlink($tomorrow);
         }
-
-        echo self::VERSION;
     }
 
     private function formatErrorMessage(\Exception $e): string
