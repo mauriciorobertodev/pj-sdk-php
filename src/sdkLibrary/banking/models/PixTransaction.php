@@ -16,7 +16,7 @@ class PixTransaction
     private ?Receiver $receiver;
     private array $errors; // List of PixTransactionError objects
     private ?string $end_to_end;
-    private ?int $value;
+    private ?float $value;
     private ?PixStatus $status;
     private ?string $movement_date_time;
     private ?string $request_date_time;
